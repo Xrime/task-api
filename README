@@ -1,0 +1,19 @@
+A simple API built with FASTAPI to manage daily to do list 
+This project uses a JSON based local storage system, making it easy to set up 
+
+Quick start
+1.Ensure you have Python 3.8+ installed
+2.CLone the repository and install the dependencies
+3.Run the server: USe tastapi dev main.py
+The api will bet live at http://127.0.0.1:8000.
+API Endpoints
+Tasks
+GET /tasks: Retrieve all tasks.
+POST /tasks: Create a new task.
+Body: {"task": "String"}
+PATCH /tasks/{id}/complete: Mark a specific task as done.
+DELETE /tasks/{id}: Remove a task permanently.
+
+📖 Documentation
+FastAPI automatically generates beautiful interactive documentation for this project:
+Use this link  http://127.0.0.1:8000/docs
