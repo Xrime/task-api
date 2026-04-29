@@ -1,0 +1,12 @@
+[
+{"id": 2, "task": "Walk the dog", "done": true},
+{"id": 3, "task": "Read a book", "done": false},
+{"id": 4, "task": "Write code", "done": false},
+{"id": 5, "task": "Go to the gym", "done": true},
+{"id": 6, "task": "Cook dinner", "done": false},
+{"id": 7, "task": "Clean the house", "done": true},
+{"id": 8, "task": "Pay bills", "done": false},
+{"id": 9, "task": "Call mom", "done": true},
+{"id": 10, "task": "Go grocery shopping", "done": false}
+
+]
