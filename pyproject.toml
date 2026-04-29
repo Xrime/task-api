@@ -1,0 +1,18 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "resolution-week3-xrime"
+version = "0.0.1"
+description = "A simple Task API built with FastAPI"
+dependencies = [
+    "fastapi[standard]",
+    "uvicorn"
+]
+
+[project.scripts]
+todo-api = "main:main"
+
+[tool.hatch.build.targets.wheel]
+packages = ["main.py"]

@@ -83,6 +83,14 @@ def task_stats():
         "pending": pending
     }
 
+
+def main():
+    import uvicorn
+    uvicorn.run("resolution_week3_Xrime.main:app", host="127.0.0.1", port=8000)
+
+if __name__ == "__main__":
+    main()
+
 # @app.get("/")
 # async def hello_world():
 #     return{"massage": "Hello World", "status": "ok"}
